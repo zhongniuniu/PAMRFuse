@@ -46,7 +46,7 @@ pip install package-name
 
 # 3. Instructions for Running Code
 
-We provide PAMRFuse trained weights under [weights](./weights) folder.
+We provide PAMRFuse trained weights ：https://pan.baidu.com/s/1KEyrvv7j13nrEj7Wka16TA  Password：beo7
 
 ## Synthesis and Registration Test:
 
