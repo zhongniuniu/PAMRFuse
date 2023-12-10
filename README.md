@@ -27,7 +27,7 @@ This code functions with following dependency packages. The versions of software
 
 ```
 Python        (3.6.6)
-torch         (1.9.0+cu111)
+tensorflow         (<2.0.0+cu111)
 visdom        (0.1.8.9)
 numpy         (1.19.2)
 skimage       (0.15.0)
