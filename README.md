@@ -46,7 +46,7 @@ pip install package-name
 
 # 3. Instructions for Running Code
 
-We provide PAMRFuse trained weights ：https://pan.baidu.com/s/1KEyrvv7j13nrEj7Wka16TA  Password：beo7
+We provide PAMRFuse trained weights ：https://pan.baidu.com/s/12HwBowYwk5NY4Yr2HCdL4g  Password：bj9i
 
 ## Synthesis and Registration Test:
 
