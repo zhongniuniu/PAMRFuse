@@ -43,11 +43,11 @@ data_name="PATMRI_train"
 img_size=256   #patch size
 stride=300     #patch stride
 
-IR_files = sorted(get_img_file(r"/mnt/dfc_data2/project/linyusen/project/12_niuniu/niuniu/UMF-CMGR-main/results_PAT/Tmybianxing_Reg+Fusion/Deformable/ir_reg"))
-VIS_files = sorted(get_img_file(r"/mnt/dfc_data2/project/linyusen/project/12_niuniu/niuniu/UMF-CMGR-main/datasets/rgb2ir/bianxing/trainA"))
+IR_files = sorted(get_img_file(r"/Deformable/ir_reg"))
+VIS_files = sorted(get_img_file(r"/trainA"))
 
 assert len(IR_files) == len(VIS_files)
-h5f = h5py.File(os.path.join('/mnt/dfc_data2/project/linyusen/project/12_niuniu/niuniu/UMF-CMGR-main/datasets/rgb2ir/bianxing',
+h5f = h5py.File(os.path.join('/datasets/rgb2ir/bianxing',
                                  data_name+'_imgsize_'+str(img_size)+"_stride_"+str(stride)+'.h5'), 
                     'w')
 h5_ir = h5f.create_group('ir_patchs')
@@ -83,7 +83,7 @@ for i in tqdm(range(len(IR_files))):
 
 h5f.close()
 
-with h5py.File(os.path.join('/mnt/dfc_data2/project/linyusen/project/12_niuniu/niuniu/UMF-CMGR-main/datasets/rgb2ir/bianxing',
+with h5py.File(os.path.join('/datasets/rgb2ir/bianxing',
                                  data_name+'_imgsize_'+str(img_size)+"_stride_"+str(stride)+'.h5'),"r") as f:
     for key in f.keys():
         print(f[key], key, f[key].name) 
