@@ -47,6 +47,7 @@ pip install package-name
 # 3. Instructions for Running Code
 
 We provide PAMRFuse trained weights ：https://pan.baidu.com/s/12HwBowYwk5NY4Yr2HCdL4g  Password：bj9i
+Or download via Google Drive:： https://drive.google.com/drive/folders/1YUIKAdyaqTn0cpuxS8BiV71Q_6Es8Y7Y?usp=sharing
 
 ## Synthesis and Registration Test:
 
